@@ -24,7 +24,7 @@ let elements = document.querySelectorAll(".explore-anmition, .navimg-anmition, .
 
   shownav.addEventListener("mouseenter", function(){
    blurcontainer.style.display="block"
-   blurcontainer.style.transform=""
+   blurcontainer.style.height="100%"
   })
   shownav.addEventListener("mouseleave", function(){
    blurcontainer.style.display="none"
