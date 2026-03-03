@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple-iOs</title>
+    <link rel="icon" href="iphone imgs/download (2).png">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    * {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-size: small;
+    opacity: 0.8;
+}
+
+header nav a:hover {
+     color: black;
+    opacity: 1;
+    border: none;
+}
+.front-head h2{
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border-radius: 40px;
+}
+.front-img-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+ margin-top: 100px;
+    gap: 140px;
+}
+.front-img-container img{
+    position: absolute;  
+}
+.front-head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 200px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.lady-img{
+    margin-top: 1000px;
+}
+.lady-img img{
+    width: 100%;
+    height: 100%;
+}
+.lady-details{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    left: 30%;
+    margin: 20px;
+    font-size: 30px;
+}
+.lady-para{
+    width: 50%;
+   text-align: start;
+    font-size: 30px;
+    opacity: 0.8;
+    font: bold;
+    margin: 80px;
+}
+/*.fresh{
+    display: flex;
+    gap: 20px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}*/
+.fresh1-para{
+     width: 50%;
+   text-align: start;
+    font-size: 30px;
+    opacity: 0.8;
+    font: bold;
+    margin: 80px;
+
+}
+.new-compare, .fresh1{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.container1 p,.container2 p,.container3 p{
+    opacity: 0.8;
+    
+
+}
+.all-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 img,.container2 img,.container3 img{
+    width: 70px;
+    height: 70px;
+}
+.container1,.container2,.container3{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.third-container{
+   display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    margin-left: -500px;
+
+}
+
+.frist-container,.second-container{
+  display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 50px;
+    margin: 50px;
+   
+}
+.fresh-container{
+    display: flex;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+}
+
+footer {
+  background-color: #F5F5F7;
+  padding: 60px;
+
+}
+
+
+footer p {
+  padding: 10px;
+  opacity: 0.9;
+  font-size: small;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-left: 270px;
+  padding: 5px;
+}
+
+footer hr {
+  width: 90%;
+  margin-top: 40px;
+  opacity: 0.7;
+}
+
+.logo-div {
+  display: flex;
+  background-color: #1d1d1d;
+  opacity: 0.9;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.a-container {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 0%;
+  justify-content: flex-start;
+  gap: -150px;
+  gap: 0;
+  gap: 200px;
+
+}
+
+.a-container p:hover {
+  border-bottom: 1px solid black;
+  border-left: fit-content;
+
+}
+
+.a-container p {
+  margin: 0%;
+  width: 99%;
+  cursor: pointer;
+}
+
+.p-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(0, 76, 255);
+}
+
+.contact {
+  margin-left: 100px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.lost {
+  cursor: pointer;
+
+}
+
+.lost p {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: -55px;
+  margin-top: 15px;
+  margin-right: 1px;
+}
+
+.blur-container{
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(50px);
+  position: absolute;
+  z-index: 1;
+  display: none;
+  margin-top: 0px;
+  transform: translateY(20px);
+  transition: 2s ease;
+}
+
+.store-navcontainer p {
+  margin: 10px;
+  opacity: 0.8;
+}
+
+.shop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  margin-left: 50px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  align-items: baseline;
+  margin-top: -80px;
+}
+
+.shop-special {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 9px;
+  margin-top: -150px;
+}
+
+.store-navcontainer {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  align-items: center;
+  height: 50%;
+  padding-bottom: 10px;
+  transition: 2s;
+  z-index: 2;
+}
+
+</style>
+<body>
+     <header>
+    <nav class="heading-nav">
+      <a href=""><i class="fa-brands fa-apple"></i></a>
+      <a href="" id="store" class="store">Store</a>
+      <a href="">Mac</a>
+      <a href="">ipad</a>
+      <a href="">iphone</a>
+      <a href="">Watch</a>
+      <a href="">AirPods</a>
+      <a href="">TV & Home</a>
+      <a href="">Entertainment</a>
+      <a href="">Accessories</a>
+      <a href="">Support</a>
+      <a href=""><i class="fa-brands fa-sistrix"></i></a>
+      <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+    </nav>
+
+    
+    <div class="front-img-container">
+       
+        <img style="left: 10px; z-index: 2;" src="iOS-imgs/welcome_ios_left__vflvubgsgdem_large_2x.png" alt="">
+       <div class="front-head">
+        <h2>iOS 26</h2>
+        <h1 style="left: 20px;">New look. <br>
+Even more magic.</h1>
+    </div>
+        <img style="right: 30px;" src="iOS-imgs/welcome_ios_right__f6f221cowfe6_large_2x.png" alt="">
+        
+    </div>
+
+    <section class="lady-img">
+        <div class="lady-details">
+            <h2>Design</h2>
+            <h1>A whole new <br>
+element of delight.</h1>
+        </div>
+        <img src="iOS-imgs/liquid_glass_hero__e4g9pjpws8ya_xlarge_2x.jpg" alt="">
+    </section>
+     <div class="lady-para">
+        <p>The new design with Liquid Glass is beautiful, delightful and instantly familiar. It gives you a more consistent experience across your apps and devices, making everything you do feel fluid.</p>
+     </div>
+
+     <section class="fresh">
+        <div class="fresh2">
+            <img src="iOS-imgs/design__51h6pg9xusii_large_2x.jpg" alt="">
+            <div class="fresh1-para">
+            <p>A fresh design. With the optical qualities of glass and a sense of fluidity, Liquid Glass  brings an expressive new design to your Lock Screen, Home Screen, Control Centre, apps and more.</p>
+            </div>
+        </div>
+         <div class="new-compare">
+            <img src="iOS-imgs/refreshed_apps__cz8url2r74mu_large_2x.jpg" alt="">
+            <p class="fresh1-para">A shared look across the system. Liquid Glass enables a more delightful experience across apps and devices so it’s easier to use your Apple products together as you move across them throughout your day.</p>
+         </div>
+        <div class="fresh1">
+           
+            <p class="fresh1-para">
+A more vibrant Lock Screen. The time A more vibrant Lock Screen. The time dynamically adapts to your photo wallpaper and notifications, keeping your subject in view. When you move your iPhone, your photo comes to life with a newdynamically adapts to your photo wallpaper and notifications, keeping your subject in view. When you move your iPhone, your photo comes to life with a new 3D effect.6</p>
+ <img src="iOS-imgs/lock_screen__bd82spxl9k9u_large_2x.jpg" style="margin-top: -50px;" alt="">        
+</div>
+        <div class="fresh1">
+            <img style="width: 30%; height: 40%; border-radius: 40px; margin: 40px; " src="iOS-imgs/app_icons__ghno6awtphe2_large_2x.jpg" alt="">
+            <p class="fresh1-para">Updated app icons. Take your pick from updated light and dark appearances, new colour-tinted icons and a stunning clear look.A more vibrant Lock Screen. The time dynamically adapts to your photo wallpaper and notifications, keeping your subject in view. When you move your iPhone, your photo comes to life with a new</p>
+        </div>
+     </section>
+     <h1 style="margin: 30px; font-size: 60px;">And so much more.</h1>
+     <div class="all-container">
+     <div class="frist-container">
+        <div class="container1">
+            <img src="iOS-imgs/last project/icon_accessibility__ey38qgbdpiuu_large_2x.png" alt="">
+            <p><span style="opacity: 1; font-weight: bold;">Accessibility.</span> New features include an all-new experience designed with Braille11 users in mind, more options for Vehicle Motion Cues to help reduce motion sickness, and a more customizable reading experience.</p>
+        </div>
+        <div class="container1">
+            <img src="iOS-imgs/last project/icon_family_sharing__etze23t93rwy_large_2x.png" alt="">
+            <p><span style="opacity: 1; font-weight: bold;">Family.</span> Parents can move kids to Child Accounts more easily and take advantage of a wide set of parental controls designed to keep children safe. These include enhancements across Communication Limits, Communication Safety and the App Store.</p>
+        </div>
+        <div class="container1">
+            <img src="iOS-imgs/last project/icon_selector__cemo6t2yhynm_large_2x.png" alt="">
+            <p ><span style="opacity: 1; font-weight: bold;">Audio recording.</span> Capture high-quality audio during video conference calls. And record in high definition in Camera with AirPods and AirPods Pro with the H2 chip.</p>
+        </div>
+     </div>
+     <div class="second-container">
+        <div class="container2">
+            <img src="iOS-imgs/last project/icon_reminders__cts245t4xcsy_large_2x.png" alt="">
+            <p style="width: 80%;"><span style="opacity: 1; font-weight: bold;">Reminders.</span> With Apple Intelligence, Reminders can suggest tasks, grocery items and follow-ups based on emails or other text on your device. It can also automatically categorise related reminders into sections within a list.</p>
+        </div>
+        <div class="container2" style="margin-left: -120px;">
+            <img src="iOS-imgs/last project/icon_photos__c1mo1v0dm1ci_large_2x.png" alt="">
+            <p style="width: 80%;"><span style="font-weight: bold; opacity: 1;">Photos.</span>With an updated layout, easy-to-use controls, and Library and Collections as your two main tabs, Photos makes it easier than ever to find what you’re looking for. Bring your favourite photo to life as a spatial scene to create a captivating 3D effect.</p>
+        </div>
+        <div class="container2" >
+            <img src="iOS-imgs/last project/icon_airpods__2m64zrch7ciq_large_2x.png" alt="">
+            <p><span>AirPods Camera Remote.</span>Start recording video in Camera by pressing and holding on AirPods or AirPods Pro with the H2 chip.</p>
+        </div>
+        </div>
+        <div class="third-container">
+          <div class="container3">
+            <img src="iOS-imgs/last project/icon_clock__c06enhzvmyie_large_2x.png" alt="">
+            <p><span style="font-weight: bold; opacity: 1;">Clock.</span> Set a snooze duration between 1 and 15 minutes, giving you more flexibility and customisation for your daily alarms.</p>
+          </div>
+          <div class="container3" >
+            <img src="iOS-imgs/last project/icon_carplay__dhx251wevhua_large_2x.png" alt="">
+            <p ><span style="font-weight: bold; opacity: 1;">CarPlay.</span> React with a Tapback in Messages, follow Live Activities and get more information at a glance so you can stay connected and focused while you drive.5</p>
+          </div>
+          
+        </div>
+
+        </div>
+        
+        
+    
+
+      <footer>
+    <p>*Listed pricing is Maximum Retail Price (inclusive of all taxes).</p>
+    <p>‡Includes instant cashback and No Cost EMI.</p>
+    <p>No Cost EMI is available with the purchase of an eligible product made using qualifying cards on 3- or 6-month tenures from most leading card issuers. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your card issuer, subject to your card issuer’s terms and conditions. Minimum order spend applies as per your card issuer’s threshold. No Cost EMI is not available to business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card issuer. Offer may be revised or withdrawn at any time without any prior notice. Terms apply.</p>
+    <p>Instant cashback is available with the purchase of an eligible product with qualifying American Express, Axis Bank and ICICI Bank cards only. Minimum transaction value of ₹10001 applies. Click here to see instant cashback amounts and eligible devices. Instant cashback is available for up to two orders per rolling 90-day period with an eligible card. Card eligibility is subject to terms and conditions between you and your card issuer. Total transaction value is calculated after any trade-in credit or eligible discount is applied. Any subsequent order adjustment(s) or cancellation(s) may result in instant cashback being recalculated, and any refund may be adjusted to account for instant cashback clawback; this may result in no refund being made to you. Offer may be revised or withdrawn at any time without any prior notice. Additional terms apply. Instant cashback is not available to business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Multiple separate orders cannot be combined for instant cashback.</p>
+    <p>◊No Cost EMI is available with the purchase of an eligible product made using qualifying cards on 3- or 6-month tenures from most leading card issuers. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your card issuer, subject to your card issuer’s terms and conditions. Minimum order spend applies as per your card issuer’s threshold. No Cost EMI is not available to business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card issuer. Offer may be revised or withdrawn at any time without any prior notice. Terms apply.</p>
+    <p>**Mac, iPad and Apple Watch trade-in is available only in-store in India. Apple Retail Online in India does not offer trade-in for Mac, iPad and Apple Watch. Trade‑in values will vary based on the condition, year and configuration of your eligible trade‑in device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible to trade in for credit. Trade‑in value may be applied towards a qualifying new device purchase. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade‑in requires presentation of a valid photo ID (local law may require saving this information). Some stores may have additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel or limit the quantity of any trade‑in transaction for any reason. More details are available from Apple’s trade‑in partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.</p>
+    <p>1.Compared with previous-generation iPhone.</p>
+    <p>2.iPhone 17, iPhone Air and iPhone 17 Pro are splash, water and dust resistant, and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 metres up to 30 minutes). Splash, water and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage is not covered under warranty.</p>
+    <p>3.Apple Intelligence is available in beta. Some features may not be available in all regions or languages. For feature and language availability and system requirements, see support.apple.com/en-in/121115.</p>
+    <p>4.Live Translation in Messages is available in Chinese (Simplified), Chinese (Traditional), Dutch, English (UK, US), French (France), German, Italian, Japanese, Korean, Portuguese (Brazil), Spanish (Spain), Turkish and Vietnamese when Apple Intelligence is enabled on a compatible iPhone, iPad or Mac, as well as on Apple Watch Series 9 and later, Apple Watch Ultra 2 and later, and Apple Watch SE 3 when paired with an Apple Intelligence–enabled iPhone.</p>
+    <p>5.Visual intelligence is available on any Apple Intelligence–enabled iPhone. Some capabilities may not be available in all languages and regions. For more details, see support.apple.com/en-in/121115#visual-intelligence.</p>
+    <p>6.Clean Up is available in beta. For compatible devices and system requirements, see support.apple.com/en-in/121429.</p>
+    <p>7.Action mode is available on iPhone 14 models and later, excluding iPhone SE and iPhone 16e. Audio Mix is available on iPhone 16 models and later. Camera Control is available on iPhone 16 models and later, excluding iPhone 16e. Center Stage front camera is available on the latest‑generation models.</p>
+    <p>8.iPhone 14 and later can detect a severe car crash and call for help. Requires a cellular connection or Wi-Fi calling.</p>
+    <p>9.Testing conducted by Apple in July 2025 using pre-production iPhone 17, iPhone Air, iPhone 17 Pro and iPhone 17 Pro Max units and software, subscribed to LTE and 5G carrier networks. Additional iPhone Air testing conducted while paired with pre-production iPhone Air MagSafe Battery units and software. Video playback consisted of a repeated 2‑hour 23‑minute HDR movie purchased from the iTunes Store. Video playback (streamed) consisted of a repeated 3‑hour 1‑minute HDR movie purchased from the iTunes Store. All settings were default except: Bluetooth was paired with headphones; Wi‑Fi was associated with a network; the Wi‑Fi feature Ask to Join Networks, Auto‑Brightness and True Tone were turned off.</p>
+    <p>10.Requires an iPhone and Apple Watch with second-generation Ultra Wideband chip. Ultra Wideband availability varies by region.
+Features are subject to change. Some features, applications and services may not be available in all regions or all languages and may require specific hardware and software. For more information, see Feature Availability.</p>
+<p>Arknights: Endfield coming to iOS, release date subject to change, see developer website for current release information.</p>
+<hr>
+<div class="logo-div">
+<i class="fa-brands fa-apple"></i> <i class="fa-solid fa-angle-right"></i> <h2 style="margin: 0%;">iphone</h2>
+</div>
+
+<div class="a-container">
+  <div class="p-container">
+    <h5 >Store and Learn</h5>
+  <p>Store</p>
+  <p>Mac</p>
+  <p>ipad</p>
+  <p>iphone</p>
+  <p>Watch</p>
+  <p>Airpods</p>
+  <p>TV & Home</p>
+  <p>AirTags</p>
+  <p>Accessories</p>
+  <p>Gifts Cards</p>
+  </div>
+  <div class="p-container">
+    <h5 >Entertainment</h5>
+    <p>Apple One</p>
+    <p>Apple TV</p>
+    <p>Apple Music</p>
+    <p>Apple Fitness+</p>
+    <p>Apple podcasts</p>
+    <p>Apple Book</p>
+    <p>App Store</p>
+    <p></p>
+  </div>
+  <div class="p-container">
+    <h5 style="margin-right: 90px; padding: 5px;">Apple Store</h5>
+<p>Find a Store</p>
+<p>Genius Bar</p>
+<p>Today at Apple</p>
+<p>Group Reservations</p>
+<p>Apple Camp</p>
+<p>Apple Trade In</p>
+<p>Ways to Buy</p>
+<p>Recycling Programme</p>
+<p>Order Status</p>
+<p>Shopping Help</p>
+  </div>
+  <div class="p-container">
+    <h5 style="margin-right: 90px; padding: 5px;">Apple Values</h5>
+<p>Accessibility</p>
+<p>Education</p>
+<p>Environment</p>
+<p>Privacy</p>
+<p>Supply Chain Innovation</p>
+  </div>
+</div>
+
+<div class="contact">
+<p>More ways to shop: <a href="" style="margin: 7px;">Find an Apple Store </a>or <a href="" style="margin: 7px;">other retailer </a>near you. Or call <a href="" style="margin: 7px;">000800 040 1966</a>.</p>
+</div>
+<hr style="margin: 0%;">
+<div class="lost">
+ <p>Copyright © 2026 Apple Inc. All rights reserved. <span>| Privacy Policy</span>   <span>| Terms of Use </span>
+  <span>| Sales Policy</span> 
+  <span>| Legal</span> 
+  <span>| Site Map</span></p> 
+ 
+
+</div>
+  </footer>
+    
+</body>
+</html>

@@ -1,0 +1,392 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-size: small;
+    opacity: 0.8;
+}
+
+header nav a:hover {
+     color: black;
+    opacity: 1;
+    border: none;
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+  background-color: #F5F5F7;
+  margin: 10px;
+  padding: 15px;
+  margin-top: 0px;
+
+}
+
+.offer p {
+  opacity: 0.9;
+  font-size: smaller;
+ 
+}
+
+.offer a {
+  text-decoration: none;
+  color: rgb(0, 76, 255);
+}
+.hero-container{
+    margin-top: 50px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.hero-container img {
+    width: 13%;
+    height: 13%;
+   
+}
+.hero-container h3{
+    opacity: 0.6;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    gap: 2px;
+}
+.hero-img{
+    width: 105%;
+}
+.highlight-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    overflow-x: auto;
+}
+.highlight-head{
+    margin: 10px;
+    font: 9px;
+}
+.iphoneair{
+    width: 88%;
+    height: 100%;
+    padding: 15px;
+}
+.highlight1 h5{
+    position: absolute;
+    right: 1000px;
+    font-size: 30px;
+    opacity: 0.9;
+    
+}
+.highlight1{
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.highlight2 img{
+    border-radius: 20px;
+    width: 90%;
+    margin: 5%;
+    height: 90%; 
+}
+.highlight2{
+    position: relative;
+}
+.highlight2 h3{
+    position: absolute;
+    font-size: 30px;
+    width: 40%;
+    top: 350px;
+    left: 100px;
+    z-index: 1;
+    color: white;
+}
+.highlight3 img{
+    border-radius: 20px;
+    width: 90%;
+   margin-top: 100px;
+    height: 90%; 
+}
+.highlight3{
+    position: relative;
+}
+.highlight3 h3{
+    position: absolute;
+    font-size: 30px;
+    width: 40%;
+    top: 350px;
+    left: 100px;
+    z-index: 1;
+    color: black;
+}
+
+.future img{
+    width: 100%;
+    height: 90%;
+    margin-top: 50px;
+}
+.future-head span{
+    font-size: 30px;
+    opacity: 0.8;
+}
+.future-head h3{
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.future-head{
+    display: flex;
+    justify-content: space-around;
+    gap: 600px;
+    margin: 50px;
+}
+.future{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.camera-head{
+    display: flex;
+    justify-content:space-around;
+    
+    align-items: center;
+
+}
+.front-camera{
+    margin-top: 100px;
+}
+.camera-head h3{
+    font-size: 40px;
+
+}
+.camera-head span{
+   font-size: 30px;
+    opacity: 0.8;
+}
+.camerasimg-container{
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 70px;
+}
+.details1 h2{
+    font-size: 35px;
+}
+.details1 h4{
+    opacity: 0.8;
+}
+.details1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: baseline;
+}
+.details-camera{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: baseline;
+}
+.camera-para{
+    text-align: center;
+    width: 43%;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+.chep img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.chep-details{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: baseline;
+    gap: 50px;
+}
+.chep-details p{
+    width: 50%;
+    font-size: large;
+    row-gap: 20px;
+    opacity: 0.8;
+}
+
+
+footer {
+  background-color: #F5F5F7;
+  padding: 60px;
+
+}
+
+footer p {
+  padding: 10px;
+  opacity: 0.9;
+  font-size: small;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-left: 270px;
+  padding: 5px;
+}
+
+footer hr {
+  width: 90%;
+  margin-top: 40px;
+  opacity: 0.7;
+}
+
+.logo-div {
+  display: flex;
+  opacity: 0.9;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.a-container {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 0%;
+  justify-content: flex-start;
+  gap: -150px;
+  gap: 0;
+  gap: 200px;
+
+}
+
+.a-container p:hover {
+  border-bottom: 1px solid black;
+  border-left: fit-content;
+
+}
+
+.a-container p {
+  margin: 0%;
+  width: 99%;
+  cursor: pointer;
+}
+
+.p-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(0, 76, 255);
+}
+
+.contact {
+  margin-left: 100px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.lost {
+  cursor: pointer;
+
+}
+
+.lost p {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: -55px;
+  margin-top: 15px;
+  margin-right: 1px;
+}
+
+.blur-container{
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(50px);
+  position: absolute;
+  z-index: 1;
+  display: none;
+  margin-top: 0px;
+  transform: translateY(20px);
+  transition: 2s ease;
+}
+
+.store-navcontainer p {
+  margin: 10px;
+  opacity: 0.8;
+}
+
+.shop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  margin-left: 50px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  align-items: baseline;
+  margin-top: -80px;
+}
+
+.shop-special {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 9px;
+  margin-top: -150px;
+}
+
+.store-navcontainer {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  align-items: center;
+  height: 50%;
+  padding-bottom: 10px;
+  transition: 2s;
+  z-index: 2;
+}
