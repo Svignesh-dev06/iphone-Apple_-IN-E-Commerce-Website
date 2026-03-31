@@ -50,3 +50,28 @@ let observer = new IntersectionObserver((entries) => {
 for (let i = 1; i < heroes.length; i++) {
   observer.observe(heroes[i]);
 }
+
+// Mobile responsiveness improvements
+const isMobile = () => window.innerWidth <= 768;
+
+// Optimize image loading for mobile devices
+document.addEventListener("DOMContentLoaded", function() {
+  if (isMobile()) {
+    // Reduce animation delays on mobile for faster load
+    document.querySelectorAll(".hero").forEach(hero => {
+      let img = hero.querySelector(".img1");
+      if (img) {
+        img.style.transitionDuration = "1s";
+      }
+    });
+  }
+});
+
+// Handle window resize events
+window.addEventListener("resize", function() {
+  // Recalculate observer threshold on resize
+  if (isMobile()) {
+    observer.disconnect();
+    // Could re-observe with different threshold if needed
+  }
+});
